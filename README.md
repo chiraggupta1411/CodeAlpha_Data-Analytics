@@ -1,4 +1,4 @@
-📊 CodeAlpha Data Analytics Internship — Project Repository
+**📊 CodeAlpha Data Analytics Internship — Project Repository**
 
 Welcome to my CodeAlpha Data Analytics Internship repository.
 This repository contains all four completed tasks covering Web Scraping, Exploratory Data Analysis (EDA), Data Visualization, and Sentiment Analysis.
