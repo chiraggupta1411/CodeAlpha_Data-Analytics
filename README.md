@@ -1,11 +1,13 @@
 **📊 CodeAlpha Data Analytics Internship — Project Repository**
 
 Welcome to my CodeAlpha Data Analytics Internship repository.
+
 This repository contains all four completed tasks covering Web Scraping, Exploratory Data Analysis (EDA), Data Visualization, and Sentiment Analysis.
 
 Each task demonstrates practical industry-level data analytics skills using Python, Pandas, Matplotlib, BeautifulSoup, Requests, and NLP tools.
 
 🚀 Tasks Included
+
 🌐 Task 1 — Web Scraping (IMDb Top 250)
 
 This task focuses on extracting structured data from the IMDb Top 250 Movies page.
@@ -91,23 +93,41 @@ TextBlob, Pandas, Matplotlib, Seaborn
 📁 Repository Structure
 
 CodeAlpha_Data-Analytics/
+
 │
+
 ├── Task_1_Web_Scraping/
+
 │   ├── web_scraping.py
+
 │   ├── imdb_top250.csv / .json / .xlsx
+
 │
+
 ├── Task_2_IPL_EDA/
+
 │   ├── ipl_eda.py
+
 │   ├── output/
+
 │
+
 ├── Task_3_IPL_Visualization/
+
 │   ├── ipl_visualization.py
+
 │   ├── output_visuals/
+
 │
+
 ├── Task_4_Sentiment_Analysis/
+
 │   ├── sentiment_analysis.py
+
 │   ├── sentiment_output/
+
 │
+
 └── README.md
 
 🛠️ Installation & Setup
@@ -115,6 +135,7 @@ CodeAlpha_Data-Analytics/
 Clone the repository:
 
 git clone https://github.com/chiraggupta1411/CodeAlpha_Data-Analytics
+
 cd CodeAlpha_Data-Analytics
 
 Install required dependencies:
@@ -128,11 +149,17 @@ pip install -r requirements.txt
 This repository showcases the end-to-end workflow of a Data Analyst:
 
 ✔ Data collection (Web Scraping)
+
 ✔ Data cleaning & preprocessing
+
 ✔ Exploratory Data Analysis
+
 ✔ Data Visualization
+
 ✔ NLP-based Sentiment Analysis
+
 ✔ Python scripting and automation
+
 
 It demonstrates strong practical analytical skills suitable for real-world projects.
 
