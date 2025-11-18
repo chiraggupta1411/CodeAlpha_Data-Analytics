@@ -1,118 +1,143 @@
-⭐ GitHub README for All 4 CodeAlpha Data Analytics Tasks
-📊 CodeAlpha Data Analytics Internship — Project Tasks
+📊 CodeAlpha Data Analytics Internship — Project Repository
 
-This repository contains all four tasks completed as part of the CodeAlpha Data Analytics Internship.
-Each task demonstrates practical data analytics skills such as data extraction, cleaning, EDA, visualization, and NLP sentiment analysis.
+Welcome to my CodeAlpha Data Analytics Internship repository.
+This repository contains all four completed tasks covering Web Scraping, Exploratory Data Analysis (EDA), Data Visualization, and Sentiment Analysis.
 
-🚀 Tasks Completed
-✅ Task 1 — Web Scraping
+Each task demonstrates practical industry-level data analytics skills using Python, Pandas, Matplotlib, BeautifulSoup, Requests, and NLP tools.
 
-Description:
-In this task, web scraping techniques were used to extract structured data from a public website.
-The process involved parsing HTML content, collecting relevant information, and transforming it into a usable dataset.
+🚀 Tasks Included
+🌐 Task 1 — Web Scraping (IMDb Top 250)
 
-Key Highlights:
+This task focuses on extracting structured data from the IMDb Top 250 Movies page.
 
-Dynamic HTML parsing
+✔ Highlights
 
-Data cleaning & formatting
+Scrapes movie Rank, Title, Year, Rating, IMDb ID, URL
 
-Automated dataset creation
+Saves data in CSV, JSON, and Excel formats
 
-CSV-ready structured output
+Includes fallback Selenium script for dynamic content
 
-✅ Task 2 — Exploratory Data Analysis (EDA)
+Demonstrates clean and adaptable web-scraping workflow
 
-Description:
-Performed an in–depth Exploratory Data Analysis on the IPL Cricket Dataset.
-The objective was to understand data structure, reveal trends, and uncover insights using statistical methods and visual interpretation.
+✔ Technologies
 
-Key Highlights:
+Requests, BeautifulSoup, Pandas, (Optional) Selenium
+
+📈 Task 2 — Exploratory Data Analysis (IPL Dataset)
+
+Performed Exploratory Data Analysis on the IPL (2008–2025) dataset.
+
+✔ Highlights
 
 Data cleaning & preprocessing
 
-Missing value analysis
+Statistical insights
 
-Performance insights for teams & players
+Trends across seasons
 
-Trend analysis across seasons
+Top teams, top players, match outcomes
 
-Hypothesis testing (toss impact, innings comparison)
+Hypothesis testing
 
-Correlation analysis & anomaly detection
+Detecting anomalies and patterns
 
-✅ Task 3 — Data Visualization
+✔ Technologies
 
-Description:
-Created a set of impactful visualizations to represent IPL data trends.
-These visuals help understand team performance, season progression, player statistics, and match behavior in a more intuitive way.
+Pandas, NumPy, Matplotlib, Seaborn, SciPy
 
-Key Highlights:
+📊 Task 3 — Data Visualization (IPL Dataset)
 
-Wins by team (bar chart)
+Created meaningful visualizations for insights from the IPL dataset.
 
-Matches per season (line chart)
+✔ Visuals Included
 
-Toss decision distribution (pie chart)
+Wins by team
 
-Stadium popularity (venue frequency)
+Matches per season
 
-Top batsmen (if dataset supports)
+Toss decision analysis
 
-Clean, aesthetically consistent charts
+Venue popularity
 
-✅ Task 4 — Sentiment Analysis
+Top batsmen (if available)
 
-Description:
-Applied Natural Language Processing (NLP) to classify text data into positive, negative, or neutral categories.
-This task demonstrates how sentiment patterns can provide meaningful insights into user opinions and public perception.
+Saved in output_visuals/
 
-Key Highlights:
+✔ Technologies
 
-Text cleaning and preprocessing
+Matplotlib, Seaborn, Pandas
 
-Tokenization & stop-word removal
+📝 Task 4 — Sentiment Analysis
 
-Polarity scoring
+Applied NLP-based sentiment analysis on a dataset of text reviews.
 
-Sentiment classification
+✔ Highlights
+
+Text cleaning & preprocessing
+
+Polarity & subjectivity scoring using TextBlob
+
+Classifies sentiment into Positive, Negative, Neutral
 
 Visualization of sentiment distribution
 
-Insightful conclusions
+Saves processed dataset in sentiment_output/
 
-🛠️ Technologies Used
+✔ Technologies
 
-Python
+TextBlob, Pandas, Matplotlib, Seaborn
 
-Pandas
+📁 Repository Structure
 
-NumPy
+CodeAlpha_Data-Analytics/
+│
+├── Task_1_Web_Scraping/
+│   ├── web_scraping.py
+│   ├── imdb_top250.csv / .json / .xlsx
+│
+├── Task_2_IPL_EDA/
+│   ├── ipl_eda.py
+│   ├── output/
+│
+├── Task_3_IPL_Visualization/
+│   ├── ipl_visualization.py
+│   ├── output_visuals/
+│
+├── Task_4_Sentiment_Analysis/
+│   ├── sentiment_analysis.py
+│   ├── sentiment_output/
+│
+└── README.md
 
-Matplotlib
+🛠️ Installation & Setup
 
-Seaborn
+Clone the repository:
 
-BeautifulSoup
+git clone https://github.com/chiraggupta1411/CodeAlpha_Data-Analytics
+cd CodeAlpha_Data-Analytics
 
-Requests
+Install required dependencies:
 
-NLTK / TextBlob
+pip install -r requirements.txt
 
-Jupyter Notebook
+(If requirements file is not added, manually install libraries mentioned in each task.)
 
-🏁 Outcome
+🎯 Outcome
 
-This repository showcases a complete end-to-end data analytics workflow:
+This repository showcases the end-to-end workflow of a Data Analyst:
 
-✔ Data extraction
-✔ Data preparation
-✔ Exploratory analysis
-✔ Insightful visualizations
-✔ NLP text processing
+✔ Data collection (Web Scraping)
+✔ Data cleaning & preprocessing
+✔ Exploratory Data Analysis
+✔ Data Visualization
+✔ NLP-based Sentiment Analysis
+✔ Python scripting and automation
 
-It demonstrates strong analytical thinking and serves as a valuable addition to any Data Science portfolio.
+It demonstrates strong practical analytical skills suitable for real-world projects.
 
-🌐 Connect
+🤝 Connect With Me
 
-If you find this helpful or interesting, feel free to ⭐ star the repository!
+🔗 GitHub: https://github.com/chiraggupta1411
+
+💼 Open to collaborations in Data Analysis, AI, and Python-based projects.
